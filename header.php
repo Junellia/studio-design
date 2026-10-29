@@ -12,7 +12,7 @@
 <body>
     <header class="site-header">
     <div class="logo-container">
-        <img a href="index.php" src="./images/skyscrape logo.png" alt="Sky Scrape Logo" class="site-logo">
+        <img src="./images/skyscrape logo.png" alt="Sky Scrape Logo" class="site-logo">
     </div>
 
     <nav class="navbar">
@@ -22,9 +22,9 @@
         <li class="dropdown">
             <a href="#" class="dropbtn">Stations</a>
             <ul class="dropdown-content">
-            <li><a href="#">8th</a></li>
-            <li><a href="#">3rd</a></li>
-            <li><a href="#">City Hall</a></li>
+            <li><a href="stations.php">8th</a></li>
+            <li><a href="3rdstation.php">3rd</a></li>
+            <li><a href="cityhall.php">City Hall</a></li>
             </ul>
         </li>
         <li><a href="#">Fun Facts</a></li>
