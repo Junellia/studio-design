@@ -17,7 +17,7 @@
 
     <nav class="navbar">
         <ul class="nav-list">
-        <li><a href="#">About</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="#">Maps</a></li>
         <li class="dropdown">
             <a href="#" class="dropbtn">Stations</a>
