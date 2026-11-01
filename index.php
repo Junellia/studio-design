@@ -46,6 +46,20 @@
         </div>
         </div>
      </section>
+
+     <section>
+        <p>"Quote"</p>
+     </section>
+
+     <section>
+        <h2>Plus 15 Network Hours:</h2>
+        <ul>
+          <li>Weekdays: 6 AM - 10 PM</li>
+          <li>Weekends & Statutory Holidays: 9 AM - 7 PM</li>
+          <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>
+        </ul>
+        <p>Note: These operating hours are subject to change and some bridges may have shorter hours or close on weekends and statutory holidays.</p>
+     </section>
 </main>
 
 
