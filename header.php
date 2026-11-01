@@ -12,7 +12,7 @@
 <body>
     <header class="site-header">
     <div class="logo-container">
-        <img src="./images/skyscrape logo.png" alt="Sky Scrape Logo" class="site-logo">
+        <img src="./images/nav_logo.png" alt="Sky Scrape Logo" class="site-logo">
     </div>
 
     <nav class="navbar">
