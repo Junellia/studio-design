@@ -1,14 +1,52 @@
 <?php
-        require("header.php");
+    require("header.php");
 ?>
 
-
+<!--Start of contents-->
 <main>
-        <h1>Alexa</h1>
-        <p>hello pookie</p>
+  <section>
+  <div>
+    <video src="replace this to the src" autoplay muted loop></video>
+  </div>
 
+  <div>
+    <h1>Calgary's +15 Skywalk</h1>
+    <p>World's most extensive indoor pedestrian skywalk network</p>
+    <p>The Calgary Plus 15 is a massive indoor bridging system running throughout the heart of downtown. Named for being situated exactly 15 feet above street level, this architectural network features 86 climate-controlled bridges that connect office towers, shopping centres, food courts, and public transit. <br>
+    Built to shield citizens from Calgary's harsh winter weather, it provides an accessible, vibrant indoor ecosystem far away from the bustling traffic below. Whether you are a daily commuter, a tourist, or a local exploring downtown, this website is your ultimate guide to navigating Calgary's historic "hidden gem."</p>
+  </div>
+  </section>
+
+   <section class="stations-section">
+        <h2 class="section-title">Stations to Explore</h2>
+        
+        <div class="stations-grid">
+        <!-- Card 1 -->
+        <div class="station-card">
+        <div class="image-wrapper">
+           <img src="" alt="8th SW Skywalk Bridge">
+        </div>
+        <h3>8th SW</h3>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="station-card">
+        <div class="image-wrapper">
+             <img src="" alt="3rd SW Skywalk Bridge">
+        </div>
+        <h3>3rd SW</h3>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="station-card">
+        <div class="image-wrapper">
+              <img src="" alt="City Hall Skywalk Bridge">
+        </div>
+        <h3>City Hall</h3>
+        </div>
+        </div>
+     </section>
 </main>
-
 
 
 <?php require("footer.php"); ?>
