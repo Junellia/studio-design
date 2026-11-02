@@ -1,20 +1,31 @@
- <div class="footer-container">
-    <!-- Logo Section -->
-    <div class="footer-logo">
-        <img src="./images/footer_logo.png" alt="Sky Scrape Logo" class="footer-logo-image">
-    </div>
+<footer class="site-footer">
+    <div class="footer-inner">
 
-    <div class="footer-links">
-      <div class="link-column">
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact Us</a>
-      </div>
-      <div class="link-column">
-        <a href="#address">Address</a>
-        <a href="#contact-num">Contact #</a>
-      </div>
+        <!-- Footer logo -->
+        <div class="footer-logo">
+            <a href="index.php">
+                <img
+                    src="./images/footer_logo.png"
+                    alt="Sky Scrape +15 Logo"
+                    class="footer-logo-image"
+                >
+            </a>
+        </div>
+
+        <!-- Middle links -->
+        <div class="footer-link-group">
+            <a href="faq.php">FAQ</a>
+            <a href="contact.php">CONTACT US</a>
+        </div>
+
+        <!-- Right links -->
+        <div class="footer-link-group">
+            <a href="contact.php#address">ADDRESS</a>
+            <a href="contact.php#phone">CONTACT #</a>
+        </div>
+
     </div>
-  </div>
+</footer>
 
 </body>
 </html>

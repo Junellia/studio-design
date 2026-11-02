@@ -17,6 +17,8 @@
 
 .site-logo {
   height: auto;
+  width:auto;
+  scale: 120%;
   max-height: 100px;
   display: inline-block;
 }
@@ -88,132 +90,76 @@
 }
 
 /*Footer*/
-.footer-container {
-      border-top: 1px solid #e2ded5;
-      background-color: #fcfbfa;
-      padding: 30px 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
+.site-footer {
+    width: 100%;
+    background-color: #f5f2ec;
+    border-top: 1px solid #e5e1da;
+    padding: 30px 0;
+}
+
+.footer-inner {
+    width: 100%;
+    max-width: 1800px;
+    min-height: 120px;
+    margin: 0 auto;
+    padding: 0 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-logo-image {
+    display: block;
+    width: 110px;
+    height: auto;
+}
+
+.footer-link-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-link-group a {
+    color: #11182f;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.footer-link-group a:hover {
+    color: #4a779d;
+}
+
+/* Tablet and mobile */
+@media (max-width: 768px) {
+    .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 20px;
+        text-align: center;
     }
 
     .footer-logo {
-      display: flex;
-      align-items: center;
+        justify-content: center;
     }
 
-    .star-logo {
-      position: relative;
-      width: 50px;
-      height: 50px;
+    .footer-logo-image {
+        width: 90px;
     }
 
-    .star-pointer {
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-style: solid;
+    .footer-link-group a {
+        font-size: 18px;
     }
-
-    .star-pointer.n-left {
-      top: 0; left: 21px;
-      border-width: 0 4px 25px 4px;
-      border-color: transparent transparent #4a779d transparent;
-    }
-    .star-pointer.n-right {
-      top: 0; left: 25px;
-      border-width: 0 4px 25px 4px;
-      border-color: transparent transparent #a2cbdc transparent;
-    }
-
-    .star-pointer.s-left {
-      bottom: 0; left: 21px;
-      border-width: 25px 4px 0 4px;
-      border-color: #0b1a30 transparent transparent transparent;
-    }
-    .star-pointer.s-right {
-      bottom: 0; left: 25px;
-      border-width: 25px 4px 0 4px;
-      border-color: #3b5f7e transparent transparent transparent;
-    }
-
-    .star-pointer.e-top {
-      top: 21px; right: 0;
-      border-width: 4px 0 4px 25px;
-      border-color: transparent transparent transparent #a2cbdc;
-    }
-    .star-pointer.e-bottom {
-      top: 25px; right: 0;
-      border-width: 4px 0 4px 25px;
-      border-color: transparent transparent transparent #3b5f7e;
-    }
-
-    .star-pointer.w-top {
-      top: 21px; left: 0;
-      border-width: 4px 25px 4px 0;
-      border-color: transparent #4a779d transparent transparent;
-    }
-    .star-pointer.w-bottom {
-      top: 25px; left: 0;
-      border-width: 4px 25px 4px 0;
-      border-color: transparent #0b1a30 transparent transparent;
-    }
-
-    .center-badge {
-      position: absolute;
-      top: 15px;
-      left: 15px;
-      width: 20px;
-      height: 20px;
-      background-color: #0b1a30;
-      border: 1px solid #a2cbdc;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #a2cbdc;
-      font-size: 8px;
-      font-weight: bold;
-      z-index: 10;
-    }
-
-    .footer-links {
-      display: flex;
-      gap: 120px;
-    }
-
-    .link-column {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .link-column a {
-      text-decoration: none;
-      color: #0d1628;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      transition: color 0.2s ease;
-    }
-
-    .link-column a:hover {
-      color: #4a779d;
-    }
-
-    @media (max-width: 768px) {
-      .footer-container {
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-        padding: 30px 20px;
-      }
-      .footer-links {
-        flex-direction: column;
-        gap: 30px;
-      }
-    }
+}
