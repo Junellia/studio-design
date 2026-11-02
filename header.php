@@ -6,7 +6,9 @@
     <title>Skyscrape</title>
     <meta name="description" content="Calgary's +15 Skywalk Campaign">
     <!--<link rel="icon" href="favicon.svg" type="image/svg+xml">-->
+    
     <link rel="stylesheet" href="./nav-style.css">
+    <link rel="stylesheet" href="./page-style.css">
 </head>
 
 <body>
