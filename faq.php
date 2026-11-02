@@ -1,6 +1,4 @@
-<?php
-    require("header.php");
-?>
+<?php require("header.php"); ?> 
 
 <section class="faq-section">
   <h2 class="faq-title">Frequently Asked Questions</h2>

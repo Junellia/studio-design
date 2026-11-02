@@ -1,10 +1,8 @@
-<?php
-    require("header.php");
-?>
+<?php require("header.php"); ?> 
 
 <section>
     <div>
-        <video src="replace this to the src" autoplay muted loop></video>
+        <video src="https://placehold.co/600x400" autoplay muted loop></video>
     </div>
 
     <div>

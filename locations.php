@@ -1,6 +1,4 @@
- <?php
-    require("header.php");
-?> 
+<?php require("header.php"); ?>
   
 <!--Plus 15 map-->
   <section>
