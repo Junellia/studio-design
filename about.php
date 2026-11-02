@@ -1,7 +1,4 @@
-<?php
-        $pageTitle="Nav";
-        require("header.php");
-?>
+<?php require("header.php"); ?> 
 
 
 <main>
@@ -40,6 +37,5 @@
 </main>
 
 
-</body>
-</html>
+<?php require("footer.php"); ?>
     
